@@ -28,4 +28,5 @@ public class ArithProgression extends Progression {
         return cur;
     }
     // Herda os metodos firsValue() e printProgression(int).
+
 }

@@ -41,5 +41,6 @@ public class Progression {
         for (int i = 2; i <= n; i++)
             System.out.print(" " + nextValue());
         System.out.println(); // termina a linha
+
     }
 }
