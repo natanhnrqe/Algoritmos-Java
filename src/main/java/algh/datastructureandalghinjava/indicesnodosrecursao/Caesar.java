@@ -35,16 +35,16 @@ public class Caesar {
         return new String(mess);
     }
 
-    public static void main(String[] args) {
-        Caesar cipher = new Caesar();
-        System.out.println("Ordem de criptografia: " + new String(cipher.encrypt));
-        System.out.println("Ordem de descriptografia: " + new String(cipher.decrypt));
+    // public static void main(String[] args) {
+      // Caesar cipher = new Caesar();
+        //System.out.println("Ordem de criptografia: " + new String(cipher.encrypt));
+       // System.out.println("Ordem de descriptografia: " + new String(cipher.decrypt));
 
-        String secret = "NAO PODEM DESCOBRIR QUE EU JOGO LOL";
-        secret = cipher.encrypt(secret);
-        System.out.println(secret);
-        secret = cipher.decrypt(secret);
-        System.out.println(secret);
+       // String secret = "NAO PODEM DESCOBRIR QUE EU JOGO LOL";
+      //  secret = cipher.encrypt(secret);
+       // System.out.println(secret);
+       // secret = cipher.decrypt(secret);
+     //   System.out.println(secret);
 
-    }
+ //   }
 }
