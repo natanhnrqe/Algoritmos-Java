@@ -12,9 +12,12 @@ public class RestauranteBocaFeliz {
         estoque.put("tomate", 5);
         // ... adicionar demais itens
 
+
         Map<String, List<String>> cardapio = new HashMap<>();
         cardapio.put("x-burguer", Arrays.asList("pao", "hamburguer"));
         // ... adicionar demais lanches
+
+
 
         while (true) {
             System.out.println("\nO que deseja pedir (0 para sair)?");
