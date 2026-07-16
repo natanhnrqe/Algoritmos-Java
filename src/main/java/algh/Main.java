@@ -10,23 +10,26 @@ import algh.datastructureandalghinjava.poo.Progression;
 public class Main {
     public static void main(String[] args) {
 
-//        Progression prog = new Progression();
-//        ArithProgression arith = new ArithProgression();
-//        GeomProgression geom = new GeomProgression();
-//        FiboProgression fibo = new FiboProgression();
-//
-//        arith.printProgression(30);
-//
-//        prog.printProgression(30);
-//
-//        fibo.printProgression(30);
-//
-//        geom.printProgression(30);
+       Progression prog = new Progression();
+       ArithProgression arith = new ArithProgression();
+       GeomProgression geom = new GeomProgression();
+       FiboProgression fibo = new FiboProgression();
+
+       arith.printProgression(30);
+
+
+       prog.printProgression(30);
+
+       fibo.printProgression(30);
+
+       geom.printProgression(30);
 
         char[] a = {'a', 'b', 'd', 'c'};
 
         InsertionSort sort = new InsertionSort();
         System.out.println(sort.insertionSort(a));
+        
         sort.insertionSort(a);
+        
     }
 }
